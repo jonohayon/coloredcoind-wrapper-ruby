@@ -25,7 +25,7 @@ class ColoredCoins
     body = response.body
     parser = Bitcoin::Protocol::Parser.new()
     tx = parser.process_pkt('tx', [body['txHex']].pack('H*'))[1]
-    return body
+    return tx
   end
   def getAddress()
     File.open("./config.yml", "r+") { |file| 
