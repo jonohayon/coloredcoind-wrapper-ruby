@@ -24,6 +24,7 @@ cc = ColoredCoins.new(<network>)
 
 ####getAssetMetadata
 To use the getAssetMetadata method, you will need 2 things:
+
 1. The asset'ss assetId (obvioulsy)
 2. A utxo that's related to the asset (can be found in the coloredcoins explorer page of the asset)
 
