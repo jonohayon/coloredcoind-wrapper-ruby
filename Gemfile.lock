@@ -1,0 +1,26 @@
+GIT
+  remote: https://github.com/lian/bitcoin-ruby
+  revision: f28866cdc5b073a02f506d4f93036cab6c243f92
+  branch: master
+  specs:
+    bitcoin-ruby (0.0.7)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    addressable (2.3.8)
+    json (1.8.3)
+    mime-types (1.25.1)
+    rest-client (1.6.9)
+      mime-types (~> 1.16)
+    unirest (1.1.2)
+      addressable (~> 2.3.5)
+      json (~> 1.8.1)
+      rest-client (~> 1.6.7)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  bitcoin-ruby!
+  unirest (~> 1.1.2)
